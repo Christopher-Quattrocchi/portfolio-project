@@ -1,0 +1,177 @@
+/* * {
+    border: dashed red 2px;
+} */
+
+p {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+.spantext {
+    font-style: italic;
+    font-weight: 700;
+    color:grey;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/portland.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 50%; */
+}
+
+html {
+    height: 100%;
+}
+
+.name {
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+    background-color: rgba(255, 255, 255, 0.335);
+    height: auto;
+    border: solid black 2px;
+}
+
+.pdxwebdev {
+    /* text-align: center; */
+
+    margin-top: 4%;
+    display: flex;
+    justify-content:center;
+    background-color:rgba(255, 255, 255, 0.335);
+    border: solid black 2px;
+    
+}
+
+.pdxwebdev p {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+.pfloat {
+    display:flex;
+}
+
+.pfloat p {
+    margin:0;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+    /* display:inline; */
+    /* float:left; */
+}
+
+.float-text {
+    padding: 5px 7px;
+    margin: 5px 5px;
+    background-color: rgba(128, 128, 128, 0.472);
+    border: solid black 2px;
+    border-radius: 10px
+}
+
+.aboutme {
+    margin-top: 7%;
+    margin-top: 7%;
+    display: flex;
+    justify-content:center;
+    background-color:rgba(255, 255, 255, 0.335);
+}
+
+.aboutme p {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects {
+    margin-top: 4%;
+    /* display: flex; */
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.335);
+}
+
+/* .projects h3 {
+    width:10%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+} */
+
+.projectinner {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.projectinner h3 {
+    width:10%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+    align-self:center;
+}
+
+.projectinner div {
+    margin: 2%;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.projectinner img {
+    aspect-ratio: 1 / 1;
+    height: 50px;
+    width: 50px;
+}
+
+.projects-lists {
+    display:flex;
+    justify-content: center;
+}
+
+.projects-ul {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+ul li {
+    margin-bottom: 8%;
+}
+
+ul, ol {
+    color: grey;
+}
+
+.faceholder {
+    display: flex;
+    justify-content: center;
+}
+
+.face {
+    width: 40%;
+}
+
+.face h3 {
+    text-align: center;
+}
+
+#imgface {
+    float: left;
+    padding-right: 5px;
+    margin: 5px 5px;
+    max-width: 250px;
+    max-height: 250px;
+    border: solid black 2px;
+    border-radius: 15px;
+}
