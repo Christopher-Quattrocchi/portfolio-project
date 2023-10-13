@@ -2,6 +2,14 @@
     border: dashed red 2px;
 } */
 
+.navtext {
+    color: white;   
+}
+
+.navtext:hover {
+    color: grey;
+}
+
 p {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px black;
