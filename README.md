@@ -27,6 +27,12 @@ _chrisquattrocchi@gmail.com, phone number is 503-841-0072_
 
 _HTML, CSS, Git and Bootstrap 5.3 were used in the creation of this site. Git and Github used to store/update as necessary_
 
+## Link to gh-pages
+
+[gh-pages link]([
+](https://christopher-quattrocchi.github.io/portfolio-project/)
+https://christopher-quattrocchi.github.io/portfolio-project/
+
 ### License
 
 Copyright (c) 2023-3077 **_{Chris Quattrocchi}_**
