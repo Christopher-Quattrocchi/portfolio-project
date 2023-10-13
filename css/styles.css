@@ -6,12 +6,25 @@
     color: white;   
 }
 
+a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
 .navtext:hover {
     color: grey;
 }
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.803);
+}
+
+.navbar a {
+    margin: auto;
+}
+
 p {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.71);
     text-shadow: 1px 1px 2px black;
 }
 
@@ -67,6 +80,9 @@ html {
 
 .pfloat {
     display:flex;
+    margin-top:3%;
+    padding-bottom:0;
+    margin-bottom:0;
 }
 
 .pfloat p {
@@ -93,12 +109,17 @@ html {
     background-color:rgba(255, 255, 255, 0.335);
 }
 
+.aboutme {
+    margin-top: 3%;
+}
+
 .aboutme p {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px black;
 }
 
 .contact-info {
+    margin-top: 15px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -136,10 +157,18 @@ html {
     margin: auto;
 }
 
+.projectinner div:hover {
+    background-color: rgba(0, 0, 0, 0.809);
+}
+
 .projectinner img {
     aspect-ratio: 1 / 1;
     height: 50px;
     width: 50px;
+}
+
+.projectinner a:hover {
+    color: rgba(255, 0, 0, 0.9);
 }
 
 .projects-lists {
